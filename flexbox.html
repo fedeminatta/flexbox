@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>FlexBox</title>
+</head>
+
+<body>
+    <h3>Propiedades del contenedor padre</h3>
+
+    <h2>Display</h2>
+    <div class="p">Display: Define que una caja será flexbox de bloque o flexbox de línea.
+        <div class="label"><label>Display:</label> flex | inline-flex;</div>
+    </div>
+
+    <h2>Flex-direction</h2>
+    <div class="p">Flex-direction: Define el eje principal (main axis) row - X, column - Y.
+        <div class="label"><label>Flex-direction:</label> row | row-reverse | column | column-reverse;</div>
+    </div>
+
+    <h2>flex-direction Column</h2>
+    <div class="direction-column width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+    </div>
+    <h2>flex-direction Column-reverse</h2>
+    <div class="direction-column-reverse width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+    </div>
+    <h2>flex-direction Row</h2>
+    <div class="direction-row width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+    </div>
+    <h2>flex-direction Row-reverse</h2>
+    <div class="direction-row-reverse width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+    </div>
+
+
+    <h2>Flex-wrap</h2>
+    <div class="p">Flex-wrap: Especifica si los elementos "hijos" son obligados a permanecer en una misma línea o pueden
+        fluir en varias líneas
+        <div class="label"><label>Flex-wrap:</label> nowrap | wrap | wrap-reverse;</div>
+    </div>
+
+    <h2>Flex-column wrap</h2>
+    <div class="column-wrap width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+    </div>
+    <h2>flex-column nowrap</h2>
+    <div class="column-nowrap width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+    </div>
+    <h2>flex-row wrap</h2>
+    <div class="row-wrap width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+    </div>
+    <h2>flex-row nowrap</h2>
+    <div class="row-nowrap width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+        <div class="caja">4</div>
+        <div class="caja">5</div>
+        <div class="caja">6</div>
+        <div class="caja">7</div>
+        <div class="caja">8</div>
+    </div>
+
+    <h2>Flex-flow</h2>
+    <div class="p">Flex-flow: Es un shorthand de flex-direction y flex-wrap.
+        <div class="label"><label>Flex-flow:</label> row wrap;</div>
+    </div>
+
+    <h2>Justify-content</h2>
+    <div class="p">Justify-content: Define la alineación de los hijos en el eje principal (main axis).
+        <div class="label"><label>Justify-content:</label> flex-start | center | flex-end | space-between | space-around
+            |
+            space-evenly;</div>
+    </div>
+
+    <h2>justify-content flex-start</h2>
+    <div class="justify-content__flex-start width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+    </div>
+    <h2>justify-content flex-end</h2>
+    <div class="justify-content__flex-end width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+    </div>
+    <h2>justify-content center</h2>
+    <div class="justify-content__center width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+    </div>
+    <h2>justify-content space-between</h2>
+    <div class="justify-content__space-between width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+    </div>
+    <h2>justify-content space-around</h2>
+    <div class="justify-content__space-around width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+    </div>
+    <h2>justify-content space-evenly</h2>
+    <div class="justify-content__space-evenly width">
+        <div class="caja">1</div>
+        <div class="caja">2</div>
+        <div class="caja">3</div>
+    </div>
+
+
+    <h2>align-items</h2>
+    <div class="p">Align-items: Define la alineación de los hijos en el eje transversal (cross axis), dentro de cada
+        línea.
+        <div class="label"><label>Align-items:</label> stretch | flex-start | flex-end | center | baseline;</div>
+    </div>
+
+    <h2>align-items flex-start</h2>
+    <div class="align-items__flex-start width">
+        <div class="caja1">1</div>
+        <div class="caja2">2</div>
+        <div class="caja3">3</div>
+    </div>
+    <h2>align-items flex-end</h2>
+    <div class="align-items__flex-end width">
+        <div class="caja1">1</div>
+        <div class="caja3">2</div>
+        <div class="caja3">3</div>
+    </div>
+    <h2>align-items center</h2>
+    <div class="align-items__center width">
+        <div class="caja1">1</div>
+        <div class="caja2">2</div>
+        <div class="caja3">3</div>
+    </div>
+    <h2>align-items stretch</h2>
+    <div class="align-items__stretch width">
+        <div class="caja1">1</div>
+        <div class="caja2">2</div>
+        <div class="caja3">3</div>
+    </div>
+    <h2>align-items baseline (Texto)</h2>
+    <div class="align-items__baseline width">
+        <div class="caja1-stretch">1</div>
+        <div class="caja2-stretch">2</div>
+        <div class="caja3-stretch">3</div>
+    </div>
+
+    <h2>align-content</h2>
+    <div class="p"> Align-content: Define la alineación de los hijos en el eje transversal (cross axis), NO funciona
+        cuando los hijos están en UNA sóla línea (es decir cuando flex-wrap tiene el valor de nowrap, NO FUNCIONA).
+        <div class="label"> <label>Align-content:</label> flex-start | flex-end | center | space-between | space-around
+            |
+            space-evenly | stretch;</div>
+    </div>
+
+    <h3>Propiedades de los elementos hijos</h3>
+
+    <h2>Flex grow</h2>
+    <div class="flex-grow width">
+        <div class="grow-0">GROW 0</div>
+        <div class="grow-0">GROW 0</div>
+        <div class="grow-0">GROW 0</div>
+        <div class="grow-1">GROW 1</div>
+        <div class="grow-1">GROW 1</div>
+        <div class="grow-2">GROW 2</div>
+    </div>
+    <div class="p">Flex-grow: Cuando la caja flexbox tenga espacio sobrante, es la habilidad o el factor de crecer,
+        valor por defecto es 0, NO se aceptan valores negativos.
+        <div class="label"><label>Flex-grow:</label> 0;</div>
+    </div>
+
+    <h2>Flex-shrink</h2>
+    <div class="p">Flex-shrink: Cuando la caja flexbox NO tenga espacio sobrante, es la habilidad o el factor de
+        encogerse, valor por defecto es 1, NO se aceptan valores negativos.
+        <div class="label"> <label>Flex-shrink:</label> 1;</div>
+    </div>
+
+    <h2>Flex-basis</h2>
+    <div class="p">Flex-basis: Es el tamaño del elemento hijo dentro de la línea de la caja flexbox.
+        <br>
+        <br> Si la caja flexbox tiene dirección de fila, flex-basis representa el width.
+        <br> Si la caja flexbox tiene dirección de columna, flex-basis representa el height.
+        <br> Valor por defecto auto.
+        <div class="label"> <label>Flex-basis:</label> auto | 100px | 2rem | 50% | etc...;</div>
+    </div>
+
+    <h2>Flex</h2>
+    <div class="p">Flex: Es un shorthand de las propiedades flex-grow, flex-shrink y flex-basis, en ese orden.
+        <div class="label"> <label>Flex:</label> 0 1 auto;</div>
+    </div>
+
+    <h2>Order</h2>
+    <div class="order width">
+        <div class="order3">1 <br> (Order 3)</div>
+        <div class="order4">2 <br> (Order 4)</div>
+        <div class="order1">3 <br> (Order 1)</div>
+        <div class="order2">4 <br> (Order 2)</div>
+        <div class="order6">5 <br> (Order 6)</div>
+        <div class="order5">6 <br> (Order 5)</div>
+    </div>
+    <div class="p">Order: Representa el orden que tendrán los elementos hijos en la caja flexbox.
+        <br>
+        <br> Valor por defecto 0.
+        <br> Se aceptan valores positivos y negativos.
+        <br> Un valor menor siempre irá antes que un valor mayor.
+        <div class="label"> <label>Order:</label> 0 | 1 | 2 | -3 | etc...;</div>
+    </div>
+
+    <h2>align-self</h2>
+    <div class="align-self width">
+        <div class="caja1">1</div>
+        <div class="caja1">2</div>
+        <div class="self">3<br>Align-self <br> Flex-end</div>
+        <div class="caja1">4</div>
+    </div>
+    <div class="p">align-self: Sobreescribe el valor de la propiedad align-items sólo para el elemento hijo
+        especificado.
+        <div class="label"> <label>align-self:</label> stretch | flex-start | flex-end | center | baseline;</div>
+    </div>
+
+</body>
+
+</html>
