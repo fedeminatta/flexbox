@@ -5,15 +5,27 @@ body {
   background-color: #e2d3b8;
 }
 
+.titulo {
+  max-width: 100%;
+  width: 700px;
+  margin: 20px auto;
+  text-align: center;
+  background: #272822;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  font-size: 1.5rem;
+}
+.titulo .label {
+  font-size: 1rem;
+  padding: 10px;
+}
+
 .direction-column {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 10px;
   margin: auto;
   width: 600px;
@@ -21,13 +33,8 @@ body {
 
 .direction-column-reverse {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  flex-direction: column-reverse;
   padding: 10px;
   margin: auto;
   width: 600px;
@@ -35,13 +42,8 @@ body {
 
 .direction-row {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding: 10px;
   margin: auto;
   width: 600px;
@@ -49,13 +51,8 @@ body {
 
 .direction-row-reverse {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
   padding: 10px;
   margin: auto;
   width: 600px;
@@ -63,15 +60,9 @@ body {
 
 .column-wrap {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 400px;
@@ -80,15 +71,9 @@ body {
 
 .column-nowrap {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-direction: column;
+  flex-wrap: nowrap;
   padding: 10px;
   margin: auto;
   height: 400px;
@@ -98,15 +83,9 @@ body {
 
 .row-wrap {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 400px;
@@ -118,15 +97,9 @@ body {
 
 .row-nowrap {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   padding: 10px;
   margin: auto;
   height: 400px;
@@ -138,18 +111,10 @@ body {
 
 .justify-content__flex-start {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   padding: 10px;
   margin: auto;
   height: 100px;
@@ -158,18 +123,10 @@ body {
 
 .justify-content__flex-end {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   padding: 10px;
   margin: auto;
   height: 100px;
@@ -178,18 +135,10 @@ body {
 
 .justify-content__center {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 10px;
   margin: auto;
   height: 100px;
@@ -198,18 +147,10 @@ body {
 
 .justify-content__space-between {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 10px;
   margin: auto;
   height: 100px;
@@ -218,17 +159,10 @@ body {
 
 .justify-content__space-around {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   padding: 10px;
   margin: auto;
   height: 100px;
@@ -237,18 +171,10 @@ body {
 
 .justify-content__space-evenly {
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   padding: 10px;
   margin: auto;
   height: 100px;
@@ -256,19 +182,11 @@ body {
 }
 
 .align-items__flex-start {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 200px;
@@ -276,19 +194,11 @@ body {
 }
 
 .align-items__flex-end {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 200px;
@@ -296,19 +206,11 @@ body {
 }
 
 .align-items__center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 200px;
@@ -316,19 +218,11 @@ body {
 }
 
 .align-items__stretch {
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  align-items: stretch;
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 200px;
@@ -339,19 +233,11 @@ body {
 }
 
 .align-items__baseline {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: baseline;
   background: #9192f3;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px;
   margin: auto;
   height: 200px;
@@ -359,15 +245,9 @@ body {
 }
 
 .flex-grow {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 670px;
   height: 300px;
   padding: 10px;
@@ -376,9 +256,7 @@ body {
 }
 
 .grow-0 {
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  flex-grow: 0;
   margin: 10px;
   width: 100px;
   height: 100px;
@@ -388,9 +266,7 @@ body {
 }
 
 .grow-1 {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   margin: 10px;
   width: 100px;
   height: 100px;
@@ -400,9 +276,7 @@ body {
 }
 
 .grow-2 {
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
+  flex-grow: 2;
   margin: 10px;
   width: 100px;
   height: 100px;
@@ -412,15 +286,9 @@ body {
 }
 
 .order {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 670px;
   height: 300px;
   padding: 10px;
@@ -430,9 +298,7 @@ body {
 }
 
 .order1 {
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  order: 1;
   background: #fffb00;
   width: 100px;
   height: auto;
@@ -442,9 +308,7 @@ body {
 }
 
 .order2 {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  order: 2;
   background: #fffb00;
   width: 100px;
   height: auto;
@@ -454,9 +318,7 @@ body {
 }
 
 .order3 {
-  -webkit-box-ordinal-group: 4;
-      -ms-flex-order: 3;
-          order: 3;
+  order: 3;
   background: #fffb00;
   width: 100px;
   height: auto;
@@ -466,9 +328,7 @@ body {
 }
 
 .order4 {
-  -webkit-box-ordinal-group: 5;
-      -ms-flex-order: 4;
-          order: 4;
+  order: 4;
   background: #fffb00;
   width: 100px;
   height: auto;
@@ -478,9 +338,7 @@ body {
 }
 
 .order5 {
-  -webkit-box-ordinal-group: 6;
-      -ms-flex-order: 5;
-          order: 5;
+  order: 5;
   background: #fffb00;
   width: 100px;
   height: auto;
@@ -490,9 +348,7 @@ body {
 }
 
 .order6 {
-  -webkit-box-ordinal-group: 7;
-      -ms-flex-order: 6;
-          order: 6;
+  order: 6;
   background: #fffb00;
   width: 100px;
   height: auto;
@@ -502,15 +358,9 @@ body {
 }
 
 .align-self {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 670px;
   height: 300px;
   padding: 10px;
@@ -519,9 +369,7 @@ body {
   background: #9192f3;
 }
 .align-self div {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 .self {
@@ -531,8 +379,7 @@ body {
   padding: 10px;
   margin: 5px;
   border: solid #000 5px;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 
 div.width {
